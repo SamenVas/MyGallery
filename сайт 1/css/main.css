@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: Pampam;
+	src: url(../fonts/20326.otf)
+	}
+}
+
+body{
+	background-color:#efefef; 
+}
+
+main{
+	background-color:#fff
+	width: 70%; 
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 20px;
+	background-color: green;
+	background-position: center;
+}
+h1	{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+}
+.photo1{background-image: url(../img/1.jpg); }
+.photo2{background-image: url(../img/2.jpg); }
+.photo3{background-image: url(../img/3.jpg); }
+.photo4{background-image: url(../img/4.jpg); }
+.photo5{background-image: url(../img/5.jpg); }
+.photo6{background-image: url(../img/6.jpg); }
+.photo7{background-image: url(../img/7.jpg); }
+.photo8{background-image: url(../img/8.jpg); }
+.photo9{background-image: url(../img/9.jpg); }
+.photo10{background-image: url(../img/10.jpg); }
+.photo11{background-image: url(../img/11.jpg); }
+.photo12{background-image: url(../img/12.jpg); }
